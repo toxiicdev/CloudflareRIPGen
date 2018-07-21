@@ -23,3 +23,9 @@ This way the script would be ran once for day/week and automatically and appendi
 # Credits
 
 ~ toxiicdev.net
+
+# License
+
+**This project is licensed under the MIT license**
+
+See the "[LICENSE](https://github.com/toxiicdev/CloudflareRIPGen/blob/master/LICENSE)" file for more details.
