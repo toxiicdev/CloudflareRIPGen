@@ -16,9 +16,9 @@ I've created this small and simple script, as cloudflare may change its IP Addre
 
 Following the scripts above, I would use the script with a crontab.
 
-I'd set the crontab every day/week to run once, apending to the script the command 'killall -s SIGHUP nginx'.
+I'd set the crontab every day/week to run once, apending to the script the command <kbd>killall -s SIGHUP nginx</kbd>
 
-This way the script would be ran once for day/week and automatically and appending the 'killall' command it would automatically repare new IP Addresses without causing any downtime.
+This way the script would be ran once for day/week and automatically and appending the <kbd>killall</kbd> command it would automatically repare new IP Addresses without causing any downtime.
 
 # Credits
 
