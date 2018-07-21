@@ -25,6 +25,9 @@ for i in /tmp/*.tdev; do
         done <"$i";
 done
 
+#remove junk data
+rm -rf /tmp/*.tdev;
+
 #set the real ip header
 echo -e "\nreal_ip_header CF-Connecting-IP;" >> $OUTPUT_FILE
 
