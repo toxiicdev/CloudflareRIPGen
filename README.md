@@ -9,8 +9,8 @@ I've created this small and simple script, as cloudflare may change its IP Addre
 
 1) Download the script on your server.
 2) Change the outputfile in the script (using a text-editor such as: nano, vi, etc.)
-3) Change permissions to the file, to run it through chmod
-4) Run it
+3) Change permissions to the file (as example through chmod)
+4) Execute it (<kbd>./generator.sh</kbd>)
 
 # Smart usage of the script
 
