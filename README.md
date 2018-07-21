@@ -3,7 +3,7 @@ Cloudflare Real IP Config Generator
 
 This little script auto-generates NGINX Cloudflare Real IP Config.
 
-I've created this small and simple script, as cloudflare may change its IP Addresses often.
+I've created this small and simple script, as cloudflare may change IP Addresses often.
 
 # Usage
 
@@ -14,7 +14,7 @@ I've created this small and simple script, as cloudflare may change its IP Addre
 
 # Smart usage of the script
 
-Following the scripts above, I would use the script with a crontab.
+Following the steps above, I would use the script with a crontab.
 
 I'd set the crontab every day/week to run once, apending to the script the command <kbd>killall -s SIGHUP nginx</kbd>
 
