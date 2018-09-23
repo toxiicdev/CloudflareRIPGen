@@ -10,15 +10,15 @@ I've created this small and simple script, as cloudflare may change IP Addresses
 1) Download the script on your server.
 2) Change the outputfile in the script (using a text-editor such as: nano, vi, etc.)
 3) Change permissions to the file (as example through chmod)
-4) Execute it (<kbd>./generator.sh</kbd>)
+4) Execute it <kbd>./generator.sh</kbd>
 
 # Smart usage of the script
 
-Following the steps above, I would use the script with a crontab.
+Following the steps above, I'd use the script with a crontab.
 
-I'd set the crontab every day/week to run once, apending to the script the command <kbd>killall -s SIGHUP nginx</kbd>
+I'd set the crontab every day/week to run once.
 
-This way the script would be ran once for day/week and automatically and appending the <kbd>killall</kbd> command it would automatically repare new IP Addresses without causing any downtime.
+If you have nginx, appending to the script the command <kbd>killall -s SIGHUP nginx</kbd>, will automatically refresh the new IP addresses without any downtime.
 
 # Credits
 
