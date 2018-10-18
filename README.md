@@ -1,4 +1,4 @@
-# CloudflareRIPGen
+# Cloudflare Real IP Config Generator
 Cloudflare Real IP Config Generator
 
 This little script auto-generates NGINX Cloudflare Real IP Config.
